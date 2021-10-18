@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "SuperMeLiCo",
+    "slug": "lista",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+        "package": "com.coderhouse.SuperMeLiCo",
+        "versionCode": 1,
+        "permissions": [
+            "ACCESS_FINE_LOCATION",
+            "WRITE_EXTERNAL_STORAGE"
+        ]
+        ,
+        "config": {
+           "googleMaps":{
+               "apiKey": "AIzaSyCLtpiHMp1zCJl5t528SJQOo3uta9GGlpE"
+           }
+        }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
