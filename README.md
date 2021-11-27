@@ -6,7 +6,6 @@ Version Productiva en : https://expo.io/artifacts/5d2faaa8-2cc8-4c80-93c1-da7c05
 ![Intro](imagenesreadme/intro.jpeg )
 
 
-
 # Componentes:
 
 
@@ -20,8 +19,6 @@ Componente que maneja los distintos Modals de la Lista de compras.
 AuthScreenWrapper.js
 Input.js
 Impute s el formulario y AuthScreenWrapper es el componente que brinda la pantalla .
-
-
 
 ./Cart:
 cartItem.js
@@ -43,7 +40,7 @@ LocationSelector.js
 MapPreview.js
 Componentes de Location
 
-![Intro](imagenesreadme/login.jpeg )
+![Menu](imagenesreadme/menu.jpeg )
 
 # Constantes:
 
@@ -53,9 +50,10 @@ colors.js
 Paleta de colores utilizada en la aplicación.
 https://coolors.co/364652-071108-b5bec6-c7dbe6-659157
 
-
 database.js
 claves de API para acceder a los distintos servicios (FIREBASE, GOOGLE AUTH, GOOGLE MAPS)
+
+![Login](imagenesreadme/login.jpeg )
 
 
 # Database (Carpeta db y models)
