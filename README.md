@@ -3,6 +3,9 @@
 Aplicación diseñada en React Native + Expo + Sqlite + Firebase + Google Auth
 Version Productiva en : https://expo.io/artifacts/5d2faaa8-2cc8-4c80-93c1-da7c051129b9
 
+![Intro](imagenesreadme/intro.jpeg )
+
+
 
 # Componentes:
 
@@ -40,6 +43,7 @@ LocationSelector.js
 MapPreview.js
 Componentes de Location
 
+![Intro](imagenesreadme/login.jpeg )
 
 # Constantes:
 
@@ -78,3 +82,5 @@ En Orden:
 ProductNavigator
 CartNavigator
 ListScreen
+
+![Intro](imagenesreadme/list.jpeg )
