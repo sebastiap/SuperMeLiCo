@@ -1,12 +1,29 @@
-#### SuperMelico
+# SuperMelico
 
 Aplicación diseñada en React Native + Expo + Sqlite + Firebase + Google Auth
 Version Productiva en : https://expo.io/artifacts/5d2faaa8-2cc8-4c80-93c1-da7c051129b9
 
-![Intro](imagenesreadme/intro.jpeg )
 
+
+## Galeria
+<p align="center">
+<img src="imagenesreadme/intro.jpeg" width="30%" height="600em" border="10"/>
+<img src="imagenesreadme/login.jpeg" width="30%" height="600em" border="10"/>
+<img src="imagenesreadme/list.jpeg" width="30%" height="600em" border="10"/>
+</p>
+<p align="center">
+<img src="imagenesreadme/menu.jpeg" width="30%" height="600em" border="10"/>
+<img src="imagenesreadme/category.jpeg" width="30%" height="600em" border="10"/>
+<img src="imagenesreadme/product.jpeg" width="30%" height="600em" border="10"/>
+</p>
+<p align="center">
+<img src="imagenesreadme/user.jpeg" width="30%" height="600em" border="10"/>
+<img src="imagenesreadme/userlocation.jpeg" width="30%" height="600em" border="10"/>
+<img src="imagenesreadme/userlocation2.jpeg" width="30%" height="600em" border="10"/>
+</p>
+
+## Tecnologia utilizada
 Autenticacion con Firebase + Menu + Lista + Storage + DB + Context
-![Intro](imagenesreadme/login.jpeg )
 
 # Componentes:
 
@@ -42,8 +59,6 @@ LocationSelector.js
 MapPreview.js
 Componentes de Location
 
-![Menu](imagenesreadme/menu.jpeg )
-
 # Constantes:
 
 ./constant
@@ -55,7 +70,7 @@ https://coolors.co/364652-071108-b5bec6-c7dbe6-659157
 database.js
 claves de API para acceder a los distintos servicios (FIREBASE, GOOGLE AUTH, GOOGLE MAPS)
 
-![Login](imagenesreadme/login.jpeg )
+
 
 
 # Database (Carpeta db y models)
@@ -83,4 +98,3 @@ ProductNavigator
 CartNavigator
 ListScreen
 
-![Intro](imagenesreadme/list.jpeg )
