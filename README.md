@@ -23,10 +23,17 @@ Version Productiva en : https://expo.io/artifacts/5d2faaa8-2cc8-4c80-93c1-da7c05
 </p>
 
 ## Tecnologia utilizada
-Autenticacion con Firebase + Menu + Lista + Storage + DB + Context
+<p align="center">
+<img src="https://miro.medium.com/max/1024/1*zTdZMxbTkVdXCOoZlXLnsg.png" width="30%" height="100em" border="10"/>
+    
+    
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfwB14KMDkyBYBzGoYEtnUpvnVcYwIoXDz5w&usqp=CAU" width="30%" height="100em" border="10"/>   
+ <img src="https://media.vlpt.us/images/choiish98/post/e7c5eeb7-cf53-4d01-ba8a-0f2e3bcca9fa/redux.png" width="30%" height="100em" border="10"/>    
+</p>
 
-# Componentes:
+# Arquitectura
 
+## Componentes
 
 AddItem.js
 Componente que contiene un imput y un boton agregar, se le pasa el comportamiento necesario para agregar un componente a la lista.
@@ -59,7 +66,7 @@ LocationSelector.js
 MapPreview.js
 Componentes de Location
 
-# Constantes:
+## Constantes:
 
 ./constant
 
@@ -73,14 +80,14 @@ claves de API para acceder a los distintos servicios (FIREBASE, GOOGLE AUTH, GOO
 
 
 
-# Database (Carpeta db y models)
+## Database (Carpeta db y models)
 
 En archivo js, todos los metodos para el CRUD de la base de datos.
 El store se comunica desde orders.reducer.js .
 
 En Models estan las Clases que seran equivalentes a las tablas de la base.
 
-# Navigation
+## Navigation
 El index principal index.js tiene la siguiente estructura, la cual depende de estar logueado o no :
 
     <NavigationContainer>
