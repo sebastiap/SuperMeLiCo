@@ -35,22 +35,21 @@ Trabajo realizado durante un curso.[^coder] .
 </p>
 
 ## Porque React?
-* Libreria es una coleccion de procesos almacenados(Codigo), que aceleran tu flujo de trabajo.
+* Es una libreria que acelera el flujo de trabajo.
 + React esta orientada a componentes y esta ideado para desarrollar facilmente interfaces.
-- Sus Componentes tienen funcionalidad y estado(sus propios datos), lo cual brinda gran flexibilidad.
+- Sus componentes tienen funcionalidad y estado(sus propios datos), lo cual brinda gran flexibilidad para un trabajo como este.
 + Rendimiento y Velocidad al utilizar la virtual DOM para mostrar los cambios.
-- React es como una navaja suiza para crear interfaces
+- React es como una navaja suiza para crear interfaces.
 
 ## Tecnologia utilizada
 <p align="center">
 <img src="https://miro.medium.com/max/1024/1*zTdZMxbTkVdXCOoZlXLnsg.png" width="30%" height="100em" border="10"/>
-    
-    
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfwB14KMDkyBYBzGoYEtnUpvnVcYwIoXDz5w&usqp=CAU" width="30%" height="100em" border="10"/>   
- <img src="https://media.vlpt.us/images/choiish98/post/e7c5eeb7-cf53-4d01-ba8a-0f2e3bcca9fa/redux.png" width="30%" height="100em" border="10"/>    
+<img src="https://media.vlpt.us/images/choiish98/post/e7c5eeb7-cf53-4d01-ba8a-0f2e3bcca9fa/redux.png" width="30%" height="100em" border="10"/>    
 </p>
 
 # Arquitectura
+Esta App se realizo con un arbol de carpetas que se detalla a continuacion. Se priorizo mas que nada que se encuentre lo mas modularizado posible. Gracias a esto el test y el debug se realizo de una manera optima, detectando facilmente los errores y bugs que iban surgiendo.
 
 ## Componentes
 
@@ -67,6 +66,7 @@ Impute s el formulario y AuthScreenWrapper es el componente que brinda la pantal
 
 ./Cart:
 cartItem.js
+Contiene el codigo de cada item particular.
 
 ./Grid:
 GridItem.js
@@ -83,7 +83,7 @@ Componente que define la cantidad a comprar.
 ./Profile:
 LocationSelector.js
 MapPreview.js
-Componentes de Location
+Contienen los componentes de Location, se desarrollaron de acuerdo a la documentacion original de React Native. No tiene grandes cambios.
 
 ## Data - Datos de la aplicacion en formato JSON
 
@@ -121,8 +121,6 @@ Paleta de colores utilizada en la aplicación.[^color] .
 
 database.js
 claves de API para acceder a los distintos servicios (FIREBASE, GOOGLE AUTH, GOOGLE MAPS)
-
-
 
 
 ## Database (Carpeta db y models)
