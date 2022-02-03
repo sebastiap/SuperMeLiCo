@@ -2,7 +2,7 @@
 
 Aplicación diseñada en React Native + Expo + Sqlite + Firebase + Google Auth
 H<sub>2</sub>O
-Version Productiva en : https://expo.io/artifacts/5d2faaa8-2cc8-4c80-93c1-da7c051129b9
+Version Productiva en : https://expo.dev/@sebastiap/lista
 
 - [x] Lista de Compras
 - [X] Carrito en Linea (Firebase)
